@@ -1,86 +1,56 @@
 # Hi, I'm Sumukha 👋
 
-I've spent the last 10+ years building native Android applications — shipping features, fixing the hard bugs, and living with the consequences of my own architecture decisions in production. Recently I started learning AI Engineering and Python. Rather than working through isolated tutorials, I've been building complete, production-style projects — a retrieval-augmented generation system and a local multi-agent coding assistant — to understand the full lifecycle of an AI system end to end: how it's designed, how it's evaluated, and how it actually fails. I'm documenting that journey publicly here on GitHub.
+I'm a software engineer with 10+ years of IT experience, primarily in native Android development, including client engagements with Zee5 and Zeta. I've shipped features, integrated APIs and SDKs, debugged difficult issues, and worked on application reliability.
 
-## My Journey
-
-After a decade of building Android apps — and consuming AI APIs like any other backend dependency — I wanted to understand what actually happens on the other side of those calls. So I started learning, from the ground up:
-
-- Python
-- Data Engineering
-- Machine Learning
-- FastAPI
-- Explainable AI
-- Retrieval-Augmented Generation
-- Multi-agent systems & LLM orchestration
-- MLOps fundamentals
-- GitHub Actions
-- CI/CD
-
-The goal isn't to become someone who just calls AI APIs. It's to understand how production AI systems are actually designed, trained, explained, tested, and served — the same way I'd want to understand any system before I ship it. I'm early in this, and I'd rather be upfront about that than overstate it.
-
-Two projects since then took me past reading and into actually shipping and evaluating something: a retrieval-augmented generation system that I load-tested until it broke — memory exhaustion at 6,000 of a 10,000-document target — and root-caused rather than quietly shrinking the test; and a local multi-agent coding assistant where every fix was measured against the real system before being trusted, including one I built, tested, and then honestly reverted because the data showed it didn't work. Both taught me the same lesson from different angles: production AI systems fail in specific, measurable ways, and the real engineering work is finding out exactly why and how far a system can be pushed — not just getting a demo to work once.
-
-## Current Focus
-
-Things I'm actively learning right now:
-
-- Python
-- AI Engineering
-- Machine Learning
-- FastAPI
-- XGBoost
-- SHAP
-- RAG
-- Multi-agent orchestration
-- MLOps
-- Production AI systems
-
-## Tech Stack
-
-**Android** (10+ years)
-
-Kotlin · Java · Jetpack Compose · MVVM · Coroutines · Flow · Room · Hilt · Retrofit
-
-**AI & Backend** (learning, applied in the projects below)
-
-Python · FastAPI · XGBoost · SHAP · RAG · Ollama · LangGraph · Qdrant · pytest · GitHub Actions · Git · Markdown
+I'm now building applied AI systems with Python, machine learning, RAG and agent orchestration. My personal projects connect models to backend services, mobile applications and cloud infrastructure, with testing and evaluation alongside the implementation.
 
 ## Featured Projects
 
 ### [Football Intelligence Platform](https://github.com/SumukhaK/football-intelligence-platform)
 
-An end-to-end football analytics platform, and the project I'm using to learn AI engineering by actually building it rather than reading about it. It's a complete system, not a notebook:
+A football analytics platform connecting data ingestion, explainable predictions, an AI assistant and a native Android app.
 
-- A native Android application (Compose Multiplatform) consuming a real backend
-- A FastAPI backend serving predictions and an assistant over REST
-- A data engineering pipeline that ingests and validates match data before it's used
-- An XGBoost pipeline that predicts match outcomes
-- SHAP explainability attached to every single prediction, not just the model as a whole
-- A retrieval-augmented assistant that answers questions grounded in the platform's own data, running locally
-- CI/CD via GitHub Actions
-- Documentation, including architecture decisions, kept alongside the code
+- XGBoost match predictions and SHAP explanations using 26 seasons of data from five European leagues.
+- FastAPI backend and Compose Multiplatform Android client with offline data access.
+- Dockerized API deployed to invite-only Google Cloud Run staging, with Firestore-backed accounts and Secret Manager.
+- Hosted RAG and tool calling through Cloudflare Workers AI, with bounded retries and signed, limited conversation history.
+- Compared hosted model configurations: disabling hidden reasoning reduced measured p50 response time from 10 seconds to 3 seconds in a 31-question provider evaluation, retaining 20/20 abstention and 11/11 grounding results. [Evaluation details](https://github.com/SumukhaK/football-intelligence-platform/blob/main/docs/reports/hosted-assistant-evals.md).
+
+### [Football Dashboard](https://github.com/SumukhaK/football-dashboard) · In progress
+
+A companion monitoring console I'm building to understand how the football platform behaves.
+
+- FastAPI, HTMX and ECharts views for component health, traffic, error rates and p50/p95 latency.
+- Google Cloud log and trace readers, request search, error groups and trace waterfalls, with cached reads.
+- Request-correlated telemetry and OpenTelemetry traces in the platform support investigation across retrieval, tool calls and generation.
 
 ### [Agentic RAG](https://github.com/SumukhaK/agentic-rag)
 
-A retrieval-augmented generation system built to production standards, not a demo: hybrid dense/sparse search over a Qdrant vector store, cross-encoder reranking, per-user access control, prompt-injection detection at the query boundary, and an explicit "I don't know" instead of a hallucinated answer when the indexed corpus can't support one. Generation and embeddings run locally via Ollama (Mistral, Nomic-embed-text).
+A local document question-answering system using Qdrant hybrid retrieval, cross-encoder reranking and Ollama.
 
-- Ingestion and query pipelines with caching, query rewriting, and query decomposition for complex questions
-- Containerized (Docker + FastAPI), with liveness/readiness health checks and correlation IDs on every request
-- Load-tested against a 10,000-document target, not just a small demo corpus — and reporting the real result honestly: it failed at 6,000 documents from sustained memory exhaustion in the embedded vector index. I root-caused it (the in-memory HNSW graph outgrowing available RAM) rather than quietly shrinking the test. The fix — moving off embedded/in-memory Qdrant to a server deployment with on-disk storage — is identified, not yet built.
+- Document ingestion, query rewriting, source citations and per-user access control.
+- Load-test findings, memory limits and proposed architectural changes documented in the repository.
 
 ### [Claude Multiagent](https://github.com/SumukhaK/claude-multiagent)
 
-A local-first, multi-agent AI coding assistant — a Planner, a Coder, and a Tool agent cooperating under an orchestrator loop (LangGraph) to turn a plain-language request into tested, reviewed code, running entirely on local hardware via Ollama, no paid APIs.
+A local coding assistant with Planner, Coder and Tool agents coordinated through LangGraph and Ollama.
 
-- Graded against a fixed set of ten tasks with hidden tests the system never sees, not by trusting its own report of success
-- The first two models I tried both scored 0% on that test set; getting from there to a best result of 69% took nine separate, individually measured fixes — each one root-caused from real failure evidence first, never guessed at
-- One candidate fix was built, measured, and found to do nothing — so it's documented and reverted, not kept for appearances
-- The honest ceiling is written down too: what's left is the local 7B model's own code-generation reliability, which I confirmed, more than once, does not improve just by rewording the instructions it's given
+- Pydantic contracts, bounded retries, allowlisted tools and OpenTelemetry tracing.
+- Coding tasks evaluated with hidden acceptance tests, with fixes and failed experiments documented.
 
-## What I've Learned
+## Tech Stack
 
-Building complete projects taught me more than finishing a dozen disconnected tutorials ever did. Tutorials show you a step. A real project forces you to make the step work with the step before it and the step after it — data quality feeding a model, a model's output feeding an explanation, an explanation feeding a UI, a fix's effect feeding the next decision about whether to keep it. That's where I started to see how software engineering and AI engineering actually depend on each other, rather than being two separate skills.
+**AI & Backend:** Python · FastAPI · Pydantic · XGBoost · SHAP · RAG · LangChain · LangGraph · Qdrant · Ollama
+
+**Cloud & Observability:** Google Cloud Run · Docker · Firestore · Secret Manager · Cloud Logging · Cloud Trace · OpenTelemetry · Cloudflare Workers AI
+
+**Android:** Kotlin · Java · Jetpack Compose · Compose Multiplatform · MVVM · Coroutines · Flow · Room · Hilt · Retrofit
+
+**Engineering:** Git · GitHub Actions · pytest
+
+## How I Work
+
+I like owning a system end to end: understanding the data, making architecture decisions, testing behaviour and following failures back to their cause. I keep decisions, experiments and remaining limitations alongside the code.
 
 ## Connect
 
