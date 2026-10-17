@@ -29,6 +29,8 @@ A companion monitoring console I'm building to understand how the football platf
 A local document question-answering system using Qdrant hybrid retrieval, cross-encoder reranking and Ollama.
 
 - Document ingestion, query rewriting, source citations and per-user access control.
+- Recorded local evaluation (**6 questions, 4 documents**): retrieved the expected source for **4/4 answerable questions**, correctly declined **2/2 unanswerable questions**, with **0 pipeline errors**.
+- **3/4 answers judged faithful** and **1/6 questions flagged as hallucination**; **76.7s average evaluation time**, including LLM judging on local hardware. This small run is a smoke test, not a production benchmark. [Walkthrough and results](https://sumukhak.github.io/agentic-rag/artifact/walkthrough.html) · [Evaluation methodology](https://github.com/SumukhaK/agentic-rag/blob/main/eval/README.md).
 - Load-test findings, memory limits and proposed architectural changes documented in the repository.
 
 ### [Claude Multiagent](https://github.com/SumukhaK/claude-multiagent)
