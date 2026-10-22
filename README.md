@@ -10,26 +10,27 @@ I'm now building applied AI systems with Python, machine learning, RAG and agent
 
 A football analytics platform connecting data ingestion, explainable predictions, an AI assistant and a native Android app.
 
+[Watch the 2-minute demo](https://fip-ai.dev/demo.mp4) · [Model evaluation](https://github.com/SumukhaK/football-intelligence-platform/blob/main/docs/reports/in-season-2026-27.md) · [Assistant evaluation](https://github.com/SumukhaK/football-intelligence-platform/blob/main/docs/reports/hosted-assistant-evals.md) · [Project website](https://fip-ai.dev/)
+
 - XGBoost match predictions and SHAP explanations using 26 seasons of data from five European leagues.
-- Season-based evaluation and a 250-match 2026/27 backtest, with bookmaker comparisons and bootstrap uncertainty intervals. [Model evaluation](https://github.com/SumukhaK/football-intelligence-platform/blob/main/docs/reports/in-season-2026-27.md).
+- Season-based evaluation and a 250-match 2026/27 backtest, with bookmaker and Elo baseline comparisons and bootstrap uncertainty intervals. The live model scored 52.0% accuracy against Bet365's 51.6%; the difference was within uncertainty. [Live-model report](https://github.com/SumukhaK/football-intelligence-platform/blob/main/docs/reports/refit-all-seasons.md).
 - FastAPI backend and Compose Multiplatform Android client with offline data access.
 - Dockerized API deployed to invite-only Google Cloud Run staging, with Firestore-backed accounts and Secret Manager.
 - Hosted RAG and tool calling through Cloudflare Workers AI, with bounded retries and signed, limited conversation history.
 - Daily per-user and global assistant token budgets, transactional sign-in lockouts, and account-backed favourite-team preferences.
-- Compared hosted model configurations: disabling hidden reasoning reduced measured p50 response time from 10 seconds to 3 seconds in a 31-question provider evaluation, retaining 20/20 abstention and 11/11 grounding results. [Evaluation details](https://github.com/SumukhaK/football-intelligence-platform/blob/main/docs/reports/hosted-assistant-evals.md).
-
-[Watch the 2-minute demo](https://fip-ai.dev/demo.mp4) · [Project website](https://fip-ai.dev/)
+- Compared hosted model configurations: disabling hidden reasoning reduced measured p50 response time from 10 seconds to 3 seconds in a 31-question evaluation, retaining 20/20 abstention and 11/11 grounding results. These calls ran from a development machine to Workers AI; they do not measure full staging request latency.
 
 ### [Football Dashboard](https://github.com/SumukhaK/football-dashboard)
 
 A companion monitoring console deployed on Cloud Run with owner-only Google sign-in, built with FastAPI, HTMX and ECharts.
 
+[Narrated walkthrough](https://github.com/SumukhaK/football-dashboard/blob/main/docs/demo/README.md) (6 minutes, sample-data demo) · [Live deployment verification](https://github.com/SumukhaK/football-dashboard/blob/main/guide/D9.6-live-verification.md) · [Deployment failure investigation](https://github.com/SumukhaK/football-dashboard/blob/main/guide/adr/002-cloud-run-health-path.md)
+
 - Request search, error investigation and trace waterfalls, plus assistant tool calls, fallbacks, reported tokens and cost.
 - Data freshness and access monitoring, API release comparisons and bounded historical queries; optional Android crash views from Crashlytics exports in BigQuery.
-- Read-only cloud telemetry access, cached reads, signed sessions and verified candidate promotion and rollback workflows.
+- Read-only cloud telemetry access, cached reads and signed sessions. Deployment evidence records owner/non-owner sign-in checks, signing-key rotation and a private-first rollback exercise.
 - Local sample-data demo and backend log-file support, with source limitations and missing data shown explicitly.
-
-[Watch the narrated walkthrough](https://github.com/SumukhaK/football-dashboard/blob/main/docs/demo/README.md) (6 minutes, sample-data demo).
+- Investigated Cloud Run returning a platform 404 for `/healthz`; added `/health` for hosted checks, retained local compatibility and verified the fix against the deployed image.
 
 ### [Agentic RAG](https://github.com/SumukhaK/agentic-rag)
 
