@@ -1,115 +1,71 @@
 <div align="center">
 
-<table width="100%">
-<tr>
-<td width="64%" valign="middle">
-<p><sub>RECRUITER SIGNAL BRIEF · sumukhak</sub></p>
-<h1>Sumukha Aithal K</h1>
-<h2>Backend or systems engineer</h2>
-<p>Building useful software and sharing the work in public.</p>
-<p><strong>● Building and sharing work in public</strong></p>
-<p><sub>Based in Bengaluru, India</sub></p>
-<p><a href="https://github.com/sumukhak">GitHub</a></p>
-</td>
-<td width="36%" valign="middle" align="center">
-<img src="https://avatars.githubusercontent.com/u/14575420?u=70a48d0edcceaf03144bddaad3988578eda45bda&amp;v=4" width="180" alt="Sumukha Aithal K GitHub avatar" />
-</td>
-</tr>
-</table>
+<img src="https://github.com/SumukhaK/SumukhaK/raw/main/hero.svg?v=1" width="100%" alt="Hi there, I'm Sumukha Aithal K — Android engineer exploring AI engineering" />
+
+<br /><br />
+
+<img src="https://github.com/SumukhaK/SumukhaK/raw/main/paths.svg?v=1" width="100%" alt="Day path: native Android for 10+ years. Night path: learning AI engineering in public." />
+
+<br /><br />
+
+<img src="https://github.com/SumukhaK/SumukhaK/raw/main/orbit.svg?v=1" width="100%" alt="Tech stack: Kotlin, Jetpack Compose, Coroutines, Python, FastAPI, LangGraph, Ollama, Qdrant, RAG" />
+
+<br /><br />
+
+<img src="https://github.com/SumukhaK/SumukhaK/raw/main/id-now.svg?v=1" width="100%" alt="Developer ID badge and what I'm working on right now" />
+
 </div>
 
-<h2>What teams can evaluate quickly</h2>
+## 🏮 Featured builds
 
-<table width="100%">
+<table>
 <tr>
-<td width="33%" valign="top"><h3>Role fit</h3><p>Backend or systems engineer · Python · Jupyter Notebook · Kotlin</p></td>
-<td width="33%" valign="top"><h3>Public proof</h3><p>32 repositories · 3 stars</p></td>
-<td width="33%" valign="top"><h3>Momentum</h3><p>1,275 contributions · 59 active days</p></td>
-</tr>
-</table>
-
-<p><sub>Building useful software and sharing the work in public.</sub></p>
-
-<h2>Proof at a glance</h2>
-
-<table width="100%">
-<tr>
-<td width="25%" align="center"><strong>32</strong><br /><sub>Repositories</sub></td>
-<td width="25%" align="center"><strong>3</strong><br /><sub>Stars</sub></td>
-<td width="25%" align="center"><strong>1,275</strong><br /><sub>Contributions</sub></td>
-<td width="25%" align="center"><strong>9</strong><br /><sub>Followers</sub></td>
-</tr>
-</table>
-
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=sumukhak&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F14575420%3Fu%3D70a48d0edcceaf03144bddaad3988578eda45bda%26v%3D4&v=recruiter-stats-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/stats?username=sumukhak&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F14575420%3Fu%3D70a48d0edcceaf03144bddaad3988578eda45bda%26v%3D4&v=recruiter-stats-1&mode=dark" width="100%" alt="Sumukha Aithal K GitHub proof metrics" />
-</picture>
-</p>
-
-<h2>Selected work</h2>
-
-<table width="100%">
-<tr>
-<td width="58%" valign="top">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=sumukhak&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F14575420%3Fu%3D70a48d0edcceaf03144bddaad3988578eda45bda%26v%3D4&repos=sumukhak%2Ffootball-intelligence-platform%2Csumukhak%2Fagentic-rag%2Csumukhak%2Fclaude-multiagent%2Csumukhak%2Ffootball-dashboard&v=recruiter-projects-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/projects?username=sumukhak&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F14575420%3Fu%3D70a48d0edcceaf03144bddaad3988578eda45bda%26v%3D4&repos=sumukhak%2Ffootball-intelligence-platform%2Csumukhak%2Fagentic-rag%2Csumukhak%2Fclaude-multiagent%2Csumukhak%2Ffootball-dashboard&v=recruiter-projects-1&mode=dark" width="100%" alt="Sumukha Aithal K selected projects" />
-</picture>
-</td>
-<td width="42%" valign="top">
+<td width="50%" valign="top">
 <h3><a href="https://github.com/SumukhaK/football-intelligence-platform">football-intelligence-platform</a></h3>
-<p>AI-powered football match prediction platform with explainable machine learning and RAG. Native Android frontend with a FastAPI backend. Designed with</p>
-<p><sub>Python · ⭐ 1 · 🍴 0</sub></p>
-<p><a href="https://github.com/SumukhaK/football-intelligence-platform">Read the repository →</a></p>
+<p>Football match predictions with explainable ML and RAG — a native Android app on a FastAPI back end, with CI/CD.</p>
+<p><sub>Python · Kotlin · FastAPI · XGBoost · SHAP</sub></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/SumukhaK/agentic-rag">agentic-rag</a></h3>
+<p>Access-controlled RAG over your own documents: hybrid search, reranking and cited answers, running fully local.</p>
+<p><sub>Python · Qdrant · Ollama</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/SumukhaK/claude-multiagent">claude-multiagent</a></h3>
+<p>A local-first multi-agent coding assistant with planner, coder and tool agents.</p>
+<p><sub>Python · Ollama · llama.cpp</sub></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/SumukhaK/RAG-Pipeline">RAG-Pipeline</a></h3>
+<p>Multi-format document ingestion, MiniLM embeddings and LLM-written summaries of search results.</p>
+<p><sub>Jupyter · Python</sub></p>
 </td>
 </tr>
 </table>
 
-<table width="100%">
-<tr>
-<td width="33%" valign="top"><h3><a href="https://github.com/SumukhaK/agentic-rag">agentic-rag</a></h3><p>Grounded, access-controlled RAG over your own documents — hybrid dense+sparse retrieval, reranking, cited answers, and safety judges, running entirely</p><p><sub>Python · ⭐ 1</sub></p></td>
-<td width="33%" valign="top"><h3><a href="https://github.com/SumukhaK/claude-multiagent">claude-multiagent</a></h3><p>Local-first multi-agent AI coding assistant (Planner / Coder / Tool agents) running on-device via Ollama, with an optional llama.cpp backend</p><p><sub>Python · ⭐ 1</sub></p></td>
-<td width="33%" valign="top"><h3><a href="https://github.com/SumukhaK/football-dashboard">football-dashboard</a></h3><p>Read-only observability console for the Football Intelligence Platform backend</p><p><sub>Python · ⭐ 0</sub></p></td>
-</tr>
-</table>
+## ⛰️ My contribution mountain
 
-<h2>Technical toolkit</h2>
+<p align="center"><sub>Every commit raises a tower. Rebuilt daily by a GitHub Action.</sub></p>
 
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=sumukhak&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F14575420%3Fu%3D70a48d0edcceaf03144bddaad3988578eda45bda%26v%3D4&v=recruiter-stack-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/stack?username=sumukhak&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F14575420%3Fu%3D70a48d0edcceaf03144bddaad3988578eda45bda%26v%3D4&v=recruiter-stack-1&mode=dark" width="100%" alt="Sumukha Aithal K technology stack" />
-</picture>
-</p>
+<img src="https://github.com/SumukhaK/SumukhaK/raw/main/profile-3d-contrib/profile-night-green.svg" width="100%" alt="3D contribution graph" />
 
-<table width="100%">
-<tr>
-<td width="20%" align="center"><strong>Python</strong><br /><sub>55% of public code</sub></td>
-<td width="20%" align="center"><strong>Jupyter Notebook</strong><br /><sub>29% of public code</sub></td>
-<td width="20%" align="center"><strong>Kotlin</strong><br /><sub>8% of public code</sub></td>
-<td width="20%" align="center"><strong>HTML</strong><br /><sub>3% of public code</sub></td>
-<td width="20%" align="center"><strong>Java</strong><br /><sub>2% of public code</sub></td>
-</tr>
-</table>
+<br />
 
-<h2>Consistency signal</h2>
+<div align="center">
 
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=sumukhak&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F14575420%3Fu%3D70a48d0edcceaf03144bddaad3988578eda45bda%26v%3D4&v=recruiter-heatmap-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/heatmap?username=sumukhak&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F14575420%3Fu%3D70a48d0edcceaf03144bddaad3988578eda45bda%26v%3D4&v=recruiter-heatmap-1&mode=dark" width="100%" alt="Sumukha Aithal K contribution activity" />
-</picture>
-</p>
+<img src="https://github.com/SumukhaK/SumukhaK/raw/main/connect.svg?v=1" width="100%" alt="Light a lantern, say hi" />
 
-<hr />
+<br /><br />
 
-<table width="100%">
-<tr>
-<td width="62%" valign="middle"><h2>Let’s talk about the next build</h2><p>Open to thoughtful teams, ambitious products, and useful engineering work.</p></td>
-<td width="38%" valign="middle" align="right"><a href="https://github.com/sumukhak">GitHub</a></td>
-</tr>
-</table>
+<a href="https://github.com/SumukhaK"><img src="https://img.shields.io/badge/GitHub-F0A848?style=for-the-badge&logo=github&logoColor=0D1B17" alt="GitHub" /></a>
+<!-- Uncomment and fill in to add more ways to reach you:
+<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-6FCF97?style=for-the-badge&logo=gmail&logoColor=0D1B17" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/YOUR_HANDLE"><img src="https://img.shields.io/badge/LinkedIn-9DB3A8?style=for-the-badge&logo=linkedin&logoColor=0D1B17" alt="LinkedIn" /></a>
+-->
+<img src="https://komarev.com/ghpvc/?username=SumukhaK&color=F0A848&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" />
 
-<p align="center"><sub>Sumukha Aithal K · recruiter-ready profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
+<sub>Kotlin by day, Python by lantern-light.</sub>
+
+</div>
