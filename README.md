@@ -60,10 +60,8 @@
 <br /><br />
 
 <a href="https://github.com/SumukhaK"><img src="https://img.shields.io/badge/GitHub-F0A848?style=for-the-badge&logo=github&logoColor=0D1B17" alt="GitHub" /></a>
-<!-- Uncomment and fill in to add more ways to reach you:
-<a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-6FCF97?style=for-the-badge&logo=gmail&logoColor=0D1B17" alt="Email" /></a>
-<a href="https://www.linkedin.com/in/YOUR_HANDLE"><img src="https://img.shields.io/badge/LinkedIn-9DB3A8?style=for-the-badge&logo=linkedin&logoColor=0D1B17" alt="LinkedIn" /></a>
--->
+<a href="mailto:sumukh.aithal@gmail.com"><img src="https://img.shields.io/badge/Email-6FCF97?style=for-the-badge&logo=gmail&logoColor=0D1B17" alt="Email" /></a>
+<a href="https://www.linkedin.com/in/sumukha-aithal-77954858/"><img src="https://img.shields.io/badge/LinkedIn-9DB3A8?style=for-the-badge&logo=linkedin&logoColor=0D1B17" alt="LinkedIn" /></a>
 <img src="https://komarev.com/ghpvc/?username=SumukhaK&color=F0A848&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" />
 
 <sub>Kotlin by day, Python by lantern-light.</sub>
