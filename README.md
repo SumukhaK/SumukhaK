@@ -20,35 +20,6 @@
 
 </div>
 
-## 🏮 Featured builds
-
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/SumukhaK/football-intelligence-platform">football-intelligence-platform</a></h3>
-<p>Football match predictions with explainable ML and RAG — a native Android app on a FastAPI back end, with CI/CD.</p>
-<p><sub>Python · Kotlin · FastAPI · XGBoost · SHAP</sub></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/SumukhaK/agentic-rag">agentic-rag</a></h3>
-<p>Access-controlled RAG over your own documents: hybrid search, reranking and cited answers, running fully local.</p>
-<p><sub>Python · Qdrant · Ollama</sub></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/SumukhaK/claude-multiagent">claude-multiagent</a></h3>
-<p>A local-first multi-agent coding assistant with planner, coder and tool agents.</p>
-<p><sub>Python · Ollama · llama.cpp</sub></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/SumukhaK/RAG-Pipeline">RAG-Pipeline</a></h3>
-<p>Multi-format document ingestion, MiniLM embeddings and LLM-written summaries of search results.</p>
-<p><sub>Jupyter · Python</sub></p>
-</td>
-</tr>
-</table>
-
 ## ⛰️ My contribution mountain
 
 <p align="center"><sub>Every commit raises a tower. Rebuilt daily by a GitHub Action.</sub></p>
