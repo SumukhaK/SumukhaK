@@ -4,6 +4,10 @@
 
 <br /><br />
 
+<img src="https://github.com/SumukhaK/SumukhaK/raw/main/epigraph.svg?v=1" width="100%" alt="“A place where someone still thinks of you is a place you can call home.” — Jiraiya" />
+
+<br /><br />
+
 <img src="https://github.com/SumukhaK/SumukhaK/raw/main/paths.svg?v=1" width="100%" alt="Day path: native Android for 10+ years. Night path: learning AI engineering in public." />
 
 <br /><br />
@@ -55,7 +59,7 @@
 
 <div align="center">
 
-<img src="https://github.com/SumukhaK/SumukhaK/raw/main/connect.svg?v=1" width="100%" alt="Light a lantern, say hi" />
+<img src="https://github.com/SumukhaK/SumukhaK/raw/main/connect.svg?v=2" width="100%" alt="Light a lantern, say hi. “Rejection makes a man stronger.” — Jiraiya" />
 
 <br /><br />
 
