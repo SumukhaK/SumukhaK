@@ -30,7 +30,7 @@
 
 <div align="center">
 
-<img src="https://github.com/SumukhaK/SumukhaK/raw/main/connect.svg?v=2" width="100%" alt="Light a lantern, say hi. “Rejection makes a man stronger.” — Jiraiya" />
+<img src="https://github.com/SumukhaK/SumukhaK/raw/main/connect.svg?v=3" width="100%" alt="Light a lantern, say hi. “The true measure of a shinobi is not how he lives, but how he codes.” — Jiraiya, remixed" />
 
 <br /><br />
 
