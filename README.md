@@ -1,67 +1,115 @@
-# Hi, I'm Sumukha 👋
+<div align="center">
 
-I'm a software engineer with 10+ years of IT experience, primarily in native Android development, including client engagements with Zee5 and Zeta. I've shipped features, integrated APIs and SDKs, debugged difficult issues, and worked on application reliability.
+<table width="100%">
+<tr>
+<td width="64%" valign="middle">
+<p><sub>RECRUITER SIGNAL BRIEF · sumukhak</sub></p>
+<h1>Sumukha Aithal K</h1>
+<h2>Backend or systems engineer</h2>
+<p>Building useful software and sharing the work in public.</p>
+<p><strong>● Building and sharing work in public</strong></p>
+<p><sub>Based in Bengaluru, India</sub></p>
+<p><a href="https://github.com/sumukhak">GitHub</a></p>
+</td>
+<td width="36%" valign="middle" align="center">
+<img src="https://avatars.githubusercontent.com/u/14575420?u=70a48d0edcceaf03144bddaad3988578eda45bda&amp;v=4" width="180" alt="Sumukha Aithal K GitHub avatar" />
+</td>
+</tr>
+</table>
+</div>
 
-I'm now building applied AI systems with Python, machine learning, RAG and agent orchestration. My personal projects connect models to backend services, mobile applications and cloud infrastructure, with testing and evaluation alongside the implementation.
+<h2>What teams can evaluate quickly</h2>
 
-## Featured Projects
+<table width="100%">
+<tr>
+<td width="33%" valign="top"><h3>Role fit</h3><p>Backend or systems engineer · Python · Jupyter Notebook · Kotlin</p></td>
+<td width="33%" valign="top"><h3>Public proof</h3><p>32 repositories · 3 stars</p></td>
+<td width="33%" valign="top"><h3>Momentum</h3><p>1,275 contributions · 59 active days</p></td>
+</tr>
+</table>
 
-### [Football Intelligence Platform](https://github.com/SumukhaK/football-intelligence-platform)
+<p><sub>Building useful software and sharing the work in public.</sub></p>
 
-A football analytics platform connecting data ingestion, explainable predictions, an AI assistant and a native Android app.
+<h2>Proof at a glance</h2>
 
-[Watch the 2-minute demo](https://fip-ai.dev/demo.mp4) · [Model evaluation](https://github.com/SumukhaK/football-intelligence-platform/blob/main/docs/reports/in-season-2026-27.md) · [Assistant evaluation](https://github.com/SumukhaK/football-intelligence-platform/blob/main/docs/reports/hosted-assistant-evals.md) · [Project website](https://fip-ai.dev/)
+<table width="100%">
+<tr>
+<td width="25%" align="center"><strong>32</strong><br /><sub>Repositories</sub></td>
+<td width="25%" align="center"><strong>3</strong><br /><sub>Stars</sub></td>
+<td width="25%" align="center"><strong>1,275</strong><br /><sub>Contributions</sub></td>
+<td width="25%" align="center"><strong>9</strong><br /><sub>Followers</sub></td>
+</tr>
+</table>
 
-- XGBoost match predictions and SHAP explanations using 26 seasons of data from five European leagues.
-- Season-based evaluation and a 250-match 2026/27 backtest, with bookmaker and Elo baseline comparisons and bootstrap uncertainty intervals. The live model scored 52.0% accuracy against Bet365's 51.6%; the difference was within uncertainty. [Live-model report](https://github.com/SumukhaK/football-intelligence-platform/blob/main/docs/reports/refit-all-seasons.md).
-- FastAPI backend and Compose Multiplatform Android client with offline data access.
-- Dockerized API deployed to invite-only Google Cloud Run staging, with Firestore-backed accounts and Secret Manager.
-- Hosted RAG and tool calling through Cloudflare Workers AI, with bounded retries and signed, limited conversation history.
-- Daily per-user and global assistant token budgets, transactional sign-in lockouts, and account-backed favourite-team preferences.
-- Compared hosted model configurations: disabling hidden reasoning reduced measured p50 response time from 10 seconds to 3 seconds in a 31-question evaluation, retaining 20/20 abstention and 11/11 grounding results. These calls ran from a development machine to Workers AI; they do not measure full staging request latency.
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=sumukhak&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F14575420%3Fu%3D70a48d0edcceaf03144bddaad3988578eda45bda%26v%3D4&v=recruiter-stats-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/stats?username=sumukhak&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F14575420%3Fu%3D70a48d0edcceaf03144bddaad3988578eda45bda%26v%3D4&v=recruiter-stats-1&mode=dark" width="100%" alt="Sumukha Aithal K GitHub proof metrics" />
+</picture>
+</p>
 
-### [Football Dashboard](https://github.com/SumukhaK/football-dashboard)
+<h2>Selected work</h2>
 
-A companion monitoring console deployed on Cloud Run with owner-only Google sign-in, built with FastAPI, HTMX and ECharts.
+<table width="100%">
+<tr>
+<td width="58%" valign="top">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=sumukhak&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F14575420%3Fu%3D70a48d0edcceaf03144bddaad3988578eda45bda%26v%3D4&repos=sumukhak%2Ffootball-intelligence-platform%2Csumukhak%2Fagentic-rag%2Csumukhak%2Fclaude-multiagent%2Csumukhak%2Ffootball-dashboard&v=recruiter-projects-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/projects?username=sumukhak&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F14575420%3Fu%3D70a48d0edcceaf03144bddaad3988578eda45bda%26v%3D4&repos=sumukhak%2Ffootball-intelligence-platform%2Csumukhak%2Fagentic-rag%2Csumukhak%2Fclaude-multiagent%2Csumukhak%2Ffootball-dashboard&v=recruiter-projects-1&mode=dark" width="100%" alt="Sumukha Aithal K selected projects" />
+</picture>
+</td>
+<td width="42%" valign="top">
+<h3><a href="https://github.com/SumukhaK/football-intelligence-platform">football-intelligence-platform</a></h3>
+<p>AI-powered football match prediction platform with explainable machine learning and RAG. Native Android frontend with a FastAPI backend. Designed with</p>
+<p><sub>Python · ⭐ 1 · 🍴 0</sub></p>
+<p><a href="https://github.com/SumukhaK/football-intelligence-platform">Read the repository →</a></p>
+</td>
+</tr>
+</table>
 
-[Narrated walkthrough](https://github.com/SumukhaK/football-dashboard/blob/main/docs/demo/README.md) (6 minutes, sample-data demo) · [Live deployment verification](https://github.com/SumukhaK/football-dashboard/blob/main/guide/D9.6-live-verification.md) · [Deployment failure investigation](https://github.com/SumukhaK/football-dashboard/blob/main/guide/adr/002-cloud-run-health-path.md)
+<table width="100%">
+<tr>
+<td width="33%" valign="top"><h3><a href="https://github.com/SumukhaK/agentic-rag">agentic-rag</a></h3><p>Grounded, access-controlled RAG over your own documents — hybrid dense+sparse retrieval, reranking, cited answers, and safety judges, running entirely</p><p><sub>Python · ⭐ 1</sub></p></td>
+<td width="33%" valign="top"><h3><a href="https://github.com/SumukhaK/claude-multiagent">claude-multiagent</a></h3><p>Local-first multi-agent AI coding assistant (Planner / Coder / Tool agents) running on-device via Ollama, with an optional llama.cpp backend</p><p><sub>Python · ⭐ 1</sub></p></td>
+<td width="33%" valign="top"><h3><a href="https://github.com/SumukhaK/football-dashboard">football-dashboard</a></h3><p>Read-only observability console for the Football Intelligence Platform backend</p><p><sub>Python · ⭐ 0</sub></p></td>
+</tr>
+</table>
 
-- Request search, error investigation and trace waterfalls, plus assistant tool calls, fallbacks, reported tokens and cost.
-- Data freshness and access monitoring, API release comparisons and bounded historical queries; optional Android crash views from Crashlytics exports in BigQuery.
-- Read-only cloud telemetry access, cached reads and signed sessions. Deployment evidence records owner/non-owner sign-in checks, signing-key rotation and a private-first rollback exercise.
-- Local sample-data demo and backend log-file support, with source limitations and missing data shown explicitly.
-- Investigated Cloud Run returning a platform 404 for `/healthz`; added `/health` for hosted checks, retained local compatibility and verified the fix against the deployed image.
+<h2>Technical toolkit</h2>
 
-### [Agentic RAG](https://github.com/SumukhaK/agentic-rag)
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=sumukhak&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F14575420%3Fu%3D70a48d0edcceaf03144bddaad3988578eda45bda%26v%3D4&v=recruiter-stack-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/stack?username=sumukhak&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F14575420%3Fu%3D70a48d0edcceaf03144bddaad3988578eda45bda%26v%3D4&v=recruiter-stack-1&mode=dark" width="100%" alt="Sumukha Aithal K technology stack" />
+</picture>
+</p>
 
-A local document question-answering system using Qdrant hybrid retrieval, cross-encoder reranking and Ollama.
+<table width="100%">
+<tr>
+<td width="20%" align="center"><strong>Python</strong><br /><sub>55% of public code</sub></td>
+<td width="20%" align="center"><strong>Jupyter Notebook</strong><br /><sub>29% of public code</sub></td>
+<td width="20%" align="center"><strong>Kotlin</strong><br /><sub>8% of public code</sub></td>
+<td width="20%" align="center"><strong>HTML</strong><br /><sub>3% of public code</sub></td>
+<td width="20%" align="center"><strong>Java</strong><br /><sub>2% of public code</sub></td>
+</tr>
+</table>
 
-- Document ingestion, query rewriting, source citations and per-user access control.
-- Small local smoke test (6 questions over 4 documents): expected sources found for **4/4 answerable questions** and **2/2 unanswerable questions correctly declined**. [Walkthrough and full results](https://sumukhak.github.io/agentic-rag/artifact/walkthrough.html) · [Evaluation methodology](https://github.com/SumukhaK/agentic-rag/blob/main/eval/README.md).
-- Load-test findings, memory limits and proposed architectural changes documented in the repository.
+<h2>Consistency signal</h2>
 
-### [Claude Multiagent](https://github.com/SumukhaK/claude-multiagent)
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=sumukhak&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F14575420%3Fu%3D70a48d0edcceaf03144bddaad3988578eda45bda%26v%3D4&v=recruiter-heatmap-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/heatmap?username=sumukhak&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F14575420%3Fu%3D70a48d0edcceaf03144bddaad3988578eda45bda%26v%3D4&v=recruiter-heatmap-1&mode=dark" width="100%" alt="Sumukha Aithal K contribution activity" />
+</picture>
+</p>
 
-A local coding assistant with Planner, Coder and Tool agents coordinated through LangGraph and Ollama.
+<hr />
 
-- Pydantic contracts, bounded retries, allowlisted tools and OpenTelemetry tracing.
-- Coding tasks evaluated with hidden acceptance tests, with fixes and failed experiments documented.
+<table width="100%">
+<tr>
+<td width="62%" valign="middle"><h2>Let’s talk about the next build</h2><p>Open to thoughtful teams, ambitious products, and useful engineering work.</p></td>
+<td width="38%" valign="middle" align="right"><a href="https://github.com/sumukhak">GitHub</a></td>
+</tr>
+</table>
 
-## Tech Stack
-
-**AI & Backend:** Python · FastAPI · Pydantic · XGBoost · SHAP · RAG · LangChain · LangGraph · Qdrant · Ollama
-
-**Cloud & Observability:** Google Cloud Run · Docker · Firestore · Secret Manager · Cloud Logging · Cloud Trace · OpenTelemetry · Cloudflare Workers AI
-
-**Android:** Kotlin · Java · Jetpack Compose · Compose Multiplatform · MVVM · Coroutines · Flow · Room · Hilt · Retrofit
-
-**Engineering:** Git · GitHub Actions · pytest
-
-## How I Work
-
-I like owning a system end to end: understanding the data, making architecture decisions, testing behaviour and following failures back to their cause. I keep decisions, experiments and remaining limitations alongside the code.
-
-## Connect
-
-- LinkedIn: [linkedin.com/in/sumukha-aithal-77954858](https://www.linkedin.com/in/sumukha-aithal-77954858/)
-- Email: sumukh.aithal@gmail.com
+<p align="center"><sub>Sumukha Aithal K · recruiter-ready profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
